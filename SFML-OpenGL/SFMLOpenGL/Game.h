@@ -17,8 +17,10 @@ public:
 	Game();
 	~Game();
 	void run();
+
 private:
 	Window window;
+	int primitive = 1;
 	bool isRunning = false;
 	void initialize();
 	void update();
