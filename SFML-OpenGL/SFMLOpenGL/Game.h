@@ -27,14 +27,13 @@ private:
 	void draw();
 	void unload();
 
-	// // Uncomment for Part 2
-	// // ********************
-	// const int primatives;
+	// Uncomment for Part 2
+	// ********************
+	
+	GLuint index = 1;
+	Clock clock;
+	Time elapsed;
 
-	//GLuint index;
-	//Clock clock;
-	//Time elapsed;
-
-	//float rotationAngle = 0.0f;
-	// // ********************
+	float rotationAngle = 0.0f;
+	// ********************
 };
